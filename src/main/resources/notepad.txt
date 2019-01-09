@@ -1,0 +1,32 @@
+originalPartNumber = 207
+type = deepgroove
+rollingElement = ball
+enclosure = open
+rollingRowsNumber = single-row
+cage = sheet metal
+innerDimension = 35
+outerDimension = 72
+width = 17
+rollingElementsNumber = 0
+weight = 0
+dynamic = 0
+id = null
+
+=====================
+Bearing:
+originalPartNumber = 207
+type = deepgroove
+rollingElement = ball
+enclosure = open
+rollingRowsNumber = single-row
+cage = sheet metal
+innerDimension = 35
+outerDimension = 72
+width = 17
+rollingElementsNumber = 0
+weight = 0
+dynamic = 0
+=====================
+AbstractEntity:
+id = null
+=====================

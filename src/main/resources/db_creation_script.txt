@@ -1,0 +1,17 @@
+CREATE SCHEMA `bearings` DEFAULT CHARACTER SET utf8 ;
+drop database if exists bearings;
+create database bearings;
+
+grant all on bearings.* to "demo"@"%" identified by "demo";
+grant all on bearings.* to "demo"@"localhost" identified by "demo";
+grant all on bearings.* to "demo"@"127.0.0.1" identified by "demo";
+
+grant super on *.* to "demo"@"%" identified by "demo";
+grant super on *.* to "demo"@"localhost" identified by "demo";
+grant super on *.* to "demo"@"127.0.0.1" identified by "demo";
+
+grant select on mysql.proc to "demo"@"%" identified by "demo";
+grant select on mysql.proc to "demo"@"localhost" identified by "demo";
+grant select on mysql.proc to "demo"@"127.0.0.1" identified by "demo";
+
+flush privileges;
